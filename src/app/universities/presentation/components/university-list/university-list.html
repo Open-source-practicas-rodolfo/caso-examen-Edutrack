@@ -1,0 +1,7 @@
+<div class="cards-grid">
+  @for (university of universities(); track university.name) {
+    <app-university-item [university]="university"></app-university-item>
+  } @empty {
+    <p>Loading universities...</p>
+  }
+</div>
