@@ -7,6 +7,6 @@ export const environment = {
   production: false,
   hipolabsApiBaseUrl: 'http://universities.hipolabs.com',
   universitiesHipolabsUniversitiesEndpointPath: '/search',
-  logoHipolabsApiBaseUrl: 'http://img.logo.dev',
+  logoHipolabsApiBaseUrl: 'http://img.logo.dev/',
   logoHipolabsPublishabledKey: "YOUR_LOGO_PROVIDER_PUBLISHABLED_KEY"
 };
